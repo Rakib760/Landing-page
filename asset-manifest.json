@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Landing-page/static/css/main.3d22df54.css",
+    "main.js": "/Landing-page/static/js/main.a3287c92.js",
+    "index.html": "/Landing-page/index.html",
+    "main.3d22df54.css.map": "/Landing-page/static/css/main.3d22df54.css.map",
+    "main.a3287c92.js.map": "/Landing-page/static/js/main.a3287c92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d22df54.css",
+    "static/js/main.a3287c92.js"
+  ]
+}
