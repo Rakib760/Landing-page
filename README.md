@@ -67,6 +67,8 @@ landing-page/
 ├── tailwind.config.js      # Tailwind configuration
 ├── README.md               # This file
 └── .gitignore             # Git ignore file
+
+
 🚀 Getting Started
 Prerequisites
 Node.js (v14 or higher)
