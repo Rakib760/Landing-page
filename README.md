@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+Sammunat Landing Page - Internship Assignment
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github-pages&logoColor=white
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive landing page built with React.js and Tailwind CSS for the Sammunat internship application. This project demonstrates front-end development skills with a focus on clean design, responsiveness, and deployment.
 
-## Available Scripts
+🚀 Live Demo
+View Live Deployment
 
-In the project directory, you can run:
+✨ Features
+Modern Design: Clean, professional interface with gradient accents
 
-### `npm start`
+Fully Responsive: Mobile-first approach, works on all devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Interactive Components:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mobile navigation menu
 
-### `npm test`
+Application form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Hover animations and transitions
 
-### `npm run build`
+Performance Optimized: Fast loading with optimized React components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Accessibility: Semantic HTML and proper ARIA labels
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Deployment Ready: Configured for GitHub Pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📸 Preview
+https://via.placeholder.com/800x450/2563eb/ffffff?text=Sammunat+Landing+Page+Preview
+Replace with actual screenshot after deployment
 
-### `npm run eject`
+🛠️ Technologies Used
+React.js - Frontend library
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tailwind CSS - Utility-first CSS framework
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Lucide React - Icon library
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+GitHub Pages - Free hosting
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create React App - Project bootstrap
 
-## Learn More
+📁 Project Structure
+text
+landing-page/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx      # Navigation header
+│   │   ├── Hero.jsx        # Hero section
+│   │   ├── Features.jsx    # Features showcase
+│   │   ├── Services.jsx    # Services/Expertise
+│   │   ├── Testimonials.jsx # Testimonials
+│   │   ├── CTA.jsx         # Call-to-action
+│   │   └── Footer.jsx      # Footer
+│   ├── App.js              # Main app component
+│   ├── index.js            # React entry point
+│   └── index.css           # Global styles
+├── package.json            # Dependencies
+├── tailwind.config.js      # Tailwind configuration
+├── README.md               # This file
+└── .gitignore             # Git ignore file
+🚀 Getting Started
+Prerequisites
+Node.js (v14 or higher)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm or yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Git
 
-### Code Splitting
+Installation
+Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+git clone https://github.com/your-username/landing-page.git
+cd landing-page
+Install dependencies
 
-### Analyzing the Bundle Size
+bash
+npm install
+Run the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+npm start
+The app will open at http://localhost:3000
 
-### Making a Progressive Web App
+Build for production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+npm run build
