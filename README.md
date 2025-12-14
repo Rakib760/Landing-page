@@ -1,6 +1,9 @@
 Sammunat Landing Page - Internship Assignment
+
 https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+
 https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+
 https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github-pages&logoColor=white
 
 A modern, responsive landing page built with React.js and Tailwind CSS for the Sammunat internship application. This project demonstrates front-end development skills with a focus on clean design, responsiveness, and deployment.
